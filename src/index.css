@@ -4,6 +4,7 @@ body{
     background: rgba(180, 0, 162, 0.48);
     display: flex;
     justify-content: center;
+    min-height: 100vh;
     align-items: center;
 }
 .box{

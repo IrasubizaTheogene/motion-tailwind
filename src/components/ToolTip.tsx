@@ -26,7 +26,7 @@ function ToolTip() {
             }}
             onMouseEnter={() => setShow(true)}
             onMouseLeave={() => setShow(false)}
-            className="absolute bg-gray-700 text-gray-100 mt-2 p-2 rounded w-full text-center"
+            className="absolute bg-gray-700 text-gray-100 mt-2 p-2  rounded w-full text-center"
         >
                 Tool Tip Text
         </motion.div>

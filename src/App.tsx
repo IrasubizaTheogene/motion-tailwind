@@ -1,15 +1,16 @@
-import BgChanger from "./components/BgChanger"
-import ColorChaanger from "./components/ColorChaanger"
-import FadesVariantBar from "./components/FadesVariantBar"
-import PursatingButton from "./components/PursatingButton"
-import SlidinText from "./components/SlidinText"
-import ToolTip from "./components/ToolTip"
-import ZigzagMove from "./components/ZigzagMove"
 import "./index.css"
-import { motion, AnimatePresence } from "framer-motion"
+import OnTap from "./components/OnTap.tsx"
+import OnTapcSize from "./components/OnTapcSize.tsx"
+import StagerGrigLayout from "./components/StagerGrigLayout.tsx"
+import StaggerText from "./components/StaggerText.tsx"
+import ViewBoxRotation from "./components/ViewBoxRotation.tsx"
+import Loader from "./components/Loader.tsx"
 function App() {
   return (
-        <ToolTip />
+        <div className="min-h-screen bg-[rgba(0 ,0, 0.50)] flex items-center justify-center">
+          <Loader />
+        </div>
+        
 
   )
 }
